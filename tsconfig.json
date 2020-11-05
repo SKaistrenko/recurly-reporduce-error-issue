@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["es6", "dom"],
+      "declaration": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "pretty": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "preserveConstEnums": true,
+      "removeComments": false,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "outDir": "dist",
+      "rootDir": "src",
+      "skipLibCheck": false
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true,
+    "buildOnSave": false
+}
+

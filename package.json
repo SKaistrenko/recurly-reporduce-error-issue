@@ -1,0 +1,16 @@
+{
+  "name": "recurly-reproduce-errors-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "recurly": "^3.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
